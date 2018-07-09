@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package main.java.sample.simple;
+package sample.simple;
 
 import org.springframework.boot.ExitCodeGenerator;
 
