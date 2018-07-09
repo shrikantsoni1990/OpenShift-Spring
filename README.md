@@ -1,0 +1,2 @@
+# OpenShift-Spring
+Test Application
