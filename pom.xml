@@ -8,10 +8,7 @@
     <name>Spring Boot Simple Sample</name>
     <description>Spring Boot Simple Sample</description>
     <url>http://projects.spring.io/spring-boot/</url>
-    <organization>
-        <name>Pivotal Software, Inc.</name>
-        <url>http://www.spring.io</url>
-    </organization>
+
     <properties>
             <spring.boot.version>1.4.2.RELEASE</spring.boot.version>
     </properties>
@@ -36,28 +33,28 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!--<plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-enforcer-plugin</artifactId>
               <version>1.4.1</version>
               <executions>
-                <execution>
+               &lt;!&ndash; <execution>
                   <id>enforce-property</id>
                   <goals>
                     <goal>enforce</goal>
                   </goals>
                   <configuration>
                     <rules>
-                      <requireProperty>
+                      &lt;!&ndash;<requireProperty>
                         <property>com.redhat.xpaas.repo.redhatga</property>
                         <message>You must set com.redhat.xpaas.repo.redhatga!</message>
-                      </requireProperty>
+                      </requireProperty>&ndash;&gt;
                     </rules>
                     <fail>true</fail>
                   </configuration>
-                </execution>
+                </execution>&ndash;&gt;
               </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
